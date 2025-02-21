@@ -18,12 +18,36 @@ const About = () => {
                 
                 <div className="about-details">
                     <div className="education-section">
-                        <h3><i className="fas fa-graduation-cap"></i> Education</h3>
+                        <h3><i className="fas fa-graduation-cap"></i> Education & Experience</h3>
                         <div className="education-item">
                             <h4>Bachelor of Technology</h4>
                             <p>AI and Data Science</p>
                             <p>Chennai Institute of Technology</p>
                             <span className="year">2022 - 2026</span>
+                        </div>
+                        <hr />
+                        <div className="experience-item">
+                            <h4>Python Developer</h4>
+                            <p>CodersCave</p>
+                            <span className="year">June 2022 - July 2022</span>
+                            <p>Remote</p>
+                            <ul>
+                                <li>Enhanced proficiency in Python programming and debugging techniques.</li>
+                                <li>Gained hands-on experience in developing scalable applications.</li>
+                                <li>Improved understanding of real-world software development workflows.</li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div className="experience-item">
+                            <h4>Android Developer</h4>
+                            <p>EduSkills</p>
+                            <span className="year">July 2024 - September 2024</span>
+                            <p>Remote</p>
+                            <ul>
+                                <li>Developed expertise in Android application development using modern tools and practices.</li>
+                                <li>Strengthened knowledge of UI/UX design principles for mobile apps.</li>
+                                <li>Gained practical experience in implementing scalable and user-friendly Android applications.</li>
+                            </ul>
                         </div>
                     </div>
 
@@ -78,6 +102,7 @@ const About = () => {
                             <h4>AI & ML</h4>
                             <p>Deep Learning, Computer Vision, Neural Networks</p>
                         </div>
+                        
                         <div className="expertise-item">
                             <i className="fas fa-code"></i>
                             <h4>Development</h4>

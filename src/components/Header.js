@@ -6,7 +6,7 @@ const Header = () => {
             <div className="header-content">
                 <div className="header-main">
                     <div className="header-intro">
-                        <span className="greeting">Hello, I'm</span>
+                        <span className="greeting cursive-font">Hello, I'm</span>
                         <h1 className="header-title">
                             <span className="name-highlight">SENTHIL KUMAR T R</span>
                         </h1>
@@ -45,7 +45,7 @@ const Header = () => {
                     </div>
                 </div>
 
-                <div className="scroll-indicator">
+                <div className="scroll-indicator" onClick={() => document.querySelector('#about').scrollIntoView({ behavior: 'smooth' })}>
                     <i className="fas fa-chevron-down bounce"></i>
                     <span className="scroll-text">Scroll to explore</span>
                 </div>
