@@ -14,7 +14,7 @@ const Header = () => {
 
                     <div className="header-roles">
                         <div className="title-animation">
-                            <span className="animated-text">AI Engineer</span>
+                            <span className="animated-text">Web Developer</span>
                             <span className="animated-text">Full Stack Developer</span>
                             <span className="animated-text">UI/UX Designer</span>
                             <span className="animated-text">Software Engineer</span>
